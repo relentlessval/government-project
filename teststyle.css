@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Yomogi&family=Wavefont&display=swap");
+
+html, body { /* don't mess with this one, kansei */
+    max-width: 9000px;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #304f50;
+    justify-content: center;
+    margin-top: 0;
+}
+.content {
+    background-color: #304f50;
+}
+.skipspace {
+    background-color: #363636;
+}
+.funnyfont {
+    font-family: "Wavefont";
+    font-size: 50px;
+    font-weight: 200;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.header h2{
+    font-size: 72px;
+    font-family: "Yomogi";
+}
+body {
+    background-color: #304f50;
+    font-family: "Yomogi";
+    font-size: 35px;
+}
+.leftside {
+    float: left;
+    background-color: #363636;
+    padding-right: 15px;
+    padding-left: 5px;
+    color: azure;
+    left:-100%;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+.rightside {
+    position:absolute;
+    background-color: #304f50;
+    padding-left: 15px;
+    padding-right: 5px;
+    color: azure;
+    right: -500px;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+.spaceright {
+    background-color: #304f50;
+    justify-content: center;
+}
+.spaceleft {
+    background-color: #304f50;
+    justify-content: center;
+}
+.leftside:hover {
+    left:0;
+    opacity: 1;
+}
+.rightside:hover {
+    right:0;
+    opacity: 1;
+}
+.conceptname {
+    font-family: "Cherry Bomb One";
+    font-size: 45px;
+}
+.bittoobig {
+    font-size: 28px;
+}
